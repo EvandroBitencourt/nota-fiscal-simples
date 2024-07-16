@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+
+ /* HEADER */
+ .nav{
+    background-color: #00BFFF;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top:0;
+    z-index: 9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 28px;
+  }
+
+  .nav span {
+    color: #fff;
+    margin-left: 28px;
+  }
+  
+  .nav-list a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .nav-list a:hover{
+    color: #FFFFFF;
+  }
+  /*HEADER */
+
+  /* FOOTER */
+
+  .rodape {
+    background-color: #000;
+    color: #fff;
+    height: 30px;
+    width: 100%;
+    display: flex;
+   
+    align-items: center;
+    padding: 18px;
+  }
+
+  .emitidos {
+    background-color: #f7f7f7;
+    width: 100%; 
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 88vh;
+  }
+
+  .emitidos div{
+    max-width: 100%;
+    padding-right: 40px;
+    margin-top: 30px;
+  }
+
+  .emitidos a {
+    background-color: #00BFFF;
+    padding: 10px 8px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+
+  .emitidos div h1{
+    font-size: 32px;
+    margin-bottom: 14px;
+  }
+
+  .emitidos table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .emitidos table td, table th{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .emitidos table th {
+    background-color: #00BFFF;
+    color: #fff;
+  }
+
+  .emitidos table tr:hover td {
+    background-color:#EEE;
+}
+
+/*formulario nota*/
+
+
+.nota {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 100%;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input-container input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.input-container input[type="text"]#cnpj {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.cancel-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.cancel-btn:hover {
+  background-color: #0056b3; 
+}
+
+
+
+
+
+
+
+
+
